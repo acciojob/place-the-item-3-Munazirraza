@@ -1,10 +1,12 @@
+
 /* Your CSS Code here. */
 .holder{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
- 
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-evenly;
 }
-
-
+.one{
+	width:150px;
+	padding:10px;
 }
